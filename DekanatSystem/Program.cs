@@ -8,6 +8,7 @@ namespace DekanatSystem
 {
     static class Program
     {
+        public static DekanatEkzEntities ekzDb = new DekanatEkzEntities();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>

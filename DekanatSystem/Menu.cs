@@ -16,5 +16,29 @@ namespace DekanatSystem
         {
             InitializeComponent();
         }
+
+        private void buttonOpenGroups_Click(object sender, EventArgs e)
+        {
+            Form formGroups = new FormGroups();
+            formGroups.Show();
+        }
+
+        private void buttonOpenStudents_Click(object sender, EventArgs e)
+        {
+            Form formStudents = new FormStudents();
+            formStudents.Show();
+        }
+
+        private void buttonOpenSubject_Click(object sender, EventArgs e)
+        {
+            Form formSubjects = new FormSubjects();
+            formSubjects.Show();
+        }
+
+        private void buttonOpenPoints_Click(object sender, EventArgs e)
+        {
+            Form formPoint = new FormPoints();
+            formPoint.Show();
+        }
     }
 }

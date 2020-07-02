@@ -48,6 +48,7 @@
             this.buttonOpenGroups.TabIndex = 0;
             this.buttonOpenGroups.Text = "Группы";
             this.buttonOpenGroups.UseVisualStyleBackColor = false;
+            this.buttonOpenGroups.Click += new System.EventHandler(this.buttonOpenGroups_Click);
             // 
             // buttonOpenStudents
             // 
@@ -61,6 +62,7 @@
             this.buttonOpenStudents.TabIndex = 1;
             this.buttonOpenStudents.Text = "Студенты";
             this.buttonOpenStudents.UseVisualStyleBackColor = false;
+            this.buttonOpenStudents.Click += new System.EventHandler(this.buttonOpenStudents_Click);
             // 
             // buttonOpenSubject
             // 
@@ -74,6 +76,7 @@
             this.buttonOpenSubject.TabIndex = 2;
             this.buttonOpenSubject.Text = "Занятия";
             this.buttonOpenSubject.UseVisualStyleBackColor = false;
+            this.buttonOpenSubject.Click += new System.EventHandler(this.buttonOpenSubject_Click);
             // 
             // buttonOpenPoints
             // 
@@ -87,6 +90,7 @@
             this.buttonOpenPoints.TabIndex = 3;
             this.buttonOpenPoints.Text = "Баллы";
             this.buttonOpenPoints.UseVisualStyleBackColor = false;
+            this.buttonOpenPoints.Click += new System.EventHandler(this.buttonOpenPoints_Click);
             // 
             // pictureBoxLogo
             // 
